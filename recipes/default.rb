@@ -4,6 +4,19 @@
 #
 # Copyright (c) 2017 The Authors, All Rights Reserved.
 
+include_recipe 'apt'
+
+node['desktop']['repos'].each do |repo, key|
+  apt_repository repo do
+    arch key['arch'] if key['arch']
+    uri key['uri']
+    distribution key['distribution'] || node['lsb']['codename']
+    components key['components']
+    keyserver key['keyserver'] if key['keyserver']
+    key key['key']
+  end
+end
+
 %w(
   ack-grep
   chromium-browser
@@ -33,6 +46,7 @@
   network-manager-openvpn-gnome
   network-manager-ssh-gnome
   openipmi
+  opera-stable
   pastebinit
   pep8
   postgresql-client-common
