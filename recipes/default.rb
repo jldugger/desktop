@@ -35,6 +35,7 @@ end
   jq
   keychain
   ldapvi
+  libdbd-pgsql
   liferea
   manpages-dev
   minicom
@@ -49,7 +50,6 @@ end
   opera-stable
   pastebinit
   pep8
-  postgresql-client-common
   pwgen
   python-virtualenv
   screen
