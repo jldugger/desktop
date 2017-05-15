@@ -19,6 +19,7 @@ end
 
 %w(
   ack-grep
+  awscli
   chromium-browser
   dsh
   emacs-nox
