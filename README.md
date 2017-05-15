@@ -1,4 +1,3 @@
-# workstation
+# desktop
 
-TODO: Enter the cookbook description here.
-
+base default configuration for desktop. packages and repos mostly

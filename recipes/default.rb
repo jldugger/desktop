@@ -58,6 +58,7 @@ end
   sslscan
   sozi
   sqlite3
+  sshfs
   terminator
   tomboy
   traceroute
