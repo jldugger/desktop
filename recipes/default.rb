@@ -21,6 +21,7 @@ end
   ack-grep
   awscli
   chromium-browser
+  csvtool
   dsh
   emacs-nox
   etckeeper
@@ -47,6 +48,7 @@ end
   mysql-client
   network-manager-openvpn-gnome
   network-manager-ssh-gnome
+  num-utils
   openipmi
   opera-stable
   pastebinit
