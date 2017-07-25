@@ -66,6 +66,7 @@ end
   tomboy
   traceroute
   vagrant
+  vim
   whois
   youtube-dl
 ).each do |pkg|
