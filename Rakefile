@@ -19,12 +19,12 @@ RuboCop::RakeTask.new(:style)
 
 desc 'Run FoodCritic (lint) tests'
 task :lint do
-    run_command('foodcritic --epic-fail any .')
+  run_command('foodcritic --epic-fail any .')
 end
 
 desc 'Update Berkshelf'
 task :berks_update do
-      run_command('berks update')
+  run_command('berks update')
 end
 
 desc 'Run all tests'
