@@ -17,7 +17,7 @@ node['desktop']['repos'].each do |repo, key|
   end
 end
 
-%w(
+%w[
   ack-grep
   awscli
   chromium-browser
@@ -69,6 +69,6 @@ end
   vim
   whois
   youtube-dl
-).each do |pkg|
+].each do |pkg|
   package pkg
 end

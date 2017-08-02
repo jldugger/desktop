@@ -6,6 +6,9 @@ description 'Installs/Configures workstation'
 long_description 'Installs/Configures workstation'
 version '0.2.6'
 
+chef_version '>= 12.5' if respond_to?(:chef_version)
+supports 'ubuntu'
+
 # If you upload to Supermarket you should set this so your cookbook
 # gets a `View Issues` link
 issues_url 'https://github.com/jldugger/workstation/issues' if respond_to?(:issues_url)
