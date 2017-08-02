@@ -1,7 +1,7 @@
 name 'desktop'
 maintainer 'Justin Dugger'
 maintainer_email 'jldugger@gmail.com'
-license 'all_rights'
+license 'GPL-2.0'
 description 'Installs/Configures workstation'
 long_description 'Installs/Configures workstation'
 version '0.2.6'
