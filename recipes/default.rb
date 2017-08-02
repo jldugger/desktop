@@ -66,6 +66,7 @@ end
   tomboy
   traceroute
   vagrant
+  virtualbox
   vim
   whois
   youtube-dl
