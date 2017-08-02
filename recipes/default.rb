@@ -29,6 +29,7 @@ end
   git
   git-extras
   gnucash
+  google-cloud-sdk
   htop
   httping
   inkscape
