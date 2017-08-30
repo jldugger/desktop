@@ -9,7 +9,7 @@ require 'spec_helper'
 describe 'workstation::default' do
   context 'When all attributes are default, on ubuntu 16.04' do
     let(:chef_run) do
-      runner = ChefSpec::SoloRunner.new(platform: 'ubuntu', version: '16.04').converge(described_recipe)
+      ChefSpec::SoloRunner.new(platform: 'ubuntu', version: '16.04').converge(described_recipe)
     end
 
     it 'converges successfully' do
