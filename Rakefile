@@ -22,12 +22,12 @@ task :lint do
   run_command('foodcritic --epic-fail any .')
 end
 
-desc 'Update Berkshelf'
-task :berks_update do
-  run_command('berks update')
+task :unit do
+  run_command('rm -f Berksfile.lock')
+  run_command('rspec --format documentation --color')
 end
 
 desc 'Run all tests'
-task test: [:berks_update, :style, :lint]
+task test: [:style, :lint, :unit]
 
 task default: :test
