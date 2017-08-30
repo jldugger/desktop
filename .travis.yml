@@ -16,4 +16,10 @@ addons:
     packages:
     - chefdk
 
+before_script:
+  - eval "$(chef shell-init bash)"
+  - chef --version
+  - cookstyle --version
+  - foodcritic --version
+
 script: ./.test.sh
