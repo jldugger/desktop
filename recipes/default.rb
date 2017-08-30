@@ -1,8 +1,8 @@
 #
-# Cookbook Name:: workstation
+# Cookbook Name:: desktop
 # Recipe:: default
 #
-# Copyright (c) 2017 The Authors, All Rights Reserved.
+# Copyright (c) 2017 Justin Dugger, GPLv2
 
 include_recipe 'apt'
 
