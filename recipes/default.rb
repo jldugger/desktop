@@ -70,6 +70,7 @@ end
   virtualbox
   vim
   whois
+  xournal
   youtube-dl
 ].each do |pkg|
   package pkg
