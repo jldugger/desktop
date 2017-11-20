@@ -18,7 +18,6 @@ node['desktop']['repos'].each do |repo, key|
 end
 
 %w[
-  ack-grep
   awscli
   chromium-browser
   csvtool
