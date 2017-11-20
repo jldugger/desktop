@@ -1,16 +1,15 @@
 #
-# Cookbook Name:: workstation
+# Cookbook Name:: desktop
 # Spec:: default
 #
-# Copyright (c) 2017 The Authors, All Rights Reserved.
+# Copyright (c) 2017 Justin Dugger, GPLv2
 
 require 'spec_helper'
 
-describe 'workstation::default' do
-  context 'When all attributes are default, on an unspecified platform' do
+describe 'desktop::default' do
+  context 'When all attributes are default, on ubuntu 16.04' do
     let(:chef_run) do
-      runner = ChefSpec::ServerRunner.new
-      runner.converge(described_recipe)
+      ChefSpec::SoloRunner.new(platform: 'ubuntu', version: '16.04').converge(described_recipe)
     end
 
     it 'converges successfully' do
