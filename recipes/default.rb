@@ -19,6 +19,7 @@ end
 
 %w[
   awscli
+  code
   chromium-browser
   csvtool
   dsh

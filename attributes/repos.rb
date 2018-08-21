@@ -17,5 +17,11 @@ default['desktop']['repos'] = {
     'distribution' => 'cloud-sdk-zesty',
     'components' => ['main'],
     'key' => 'https://packages.cloud.google.com/apt/doc/apt-key.gpg'
+  },
+  'visual-studio-code' => {
+    'uri' => 'https://packages.microsoft.com/repos/vscode',
+    'distribution' => 'stable',
+    'key' => 'https://packages.microsoft.com/keys/microsoft.asc',
+    'components' => ['main']
   }
 }
