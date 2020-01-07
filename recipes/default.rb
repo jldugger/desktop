@@ -28,6 +28,7 @@ end
   evolution-ews
   git
   git-extras
+  gnote
   gnucash
   google-cloud-sdk
   htop
@@ -63,7 +64,6 @@ end
   sqlite3
   sshfs
   terminator
-  tomboy
   traceroute
   vagrant
   virtualbox
