@@ -59,7 +59,6 @@ end
   screen
   sgt-puzzles
   shellcheck
-  sslscan
   sozi
   sqlite3
   sshfs
