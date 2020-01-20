@@ -1,6 +1,5 @@
 language: ruby
-dist: trusty
-sudo: false
+dist: xenial
 
 env:
   global:
@@ -12,7 +11,8 @@ env:
 addons:
   apt:
     sources:
-    - chef-stable-trusty
+    - sourceline: "deb https://packages.chef.io/repos/apt/current xenial main"
+      key_url: "https://%{app_host}/files/gpg/chef-current-trusty.asc"
     packages:
     - chefdk
 
