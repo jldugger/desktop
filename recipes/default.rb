@@ -60,7 +60,6 @@ end
   screen
   sgt-puzzles
   shellcheck
-  sozi
   sqlite3
   sshfs
   terminator
