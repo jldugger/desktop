@@ -56,11 +56,10 @@ end
   pastebinit
   pep8
   pwgen
-  python-virtualenv
+  virtualenv
   screen
   sgt-puzzles
   shellcheck
-  sozi
   sqlite3
   sshfs
   terminator
