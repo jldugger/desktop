@@ -18,6 +18,7 @@ node['desktop']['repos'].each do |repo, key|
 end
 
 %w[
+  anki
   awscli
   code
   chromium-browser
@@ -50,9 +51,9 @@ end
   mysql-client
   network-manager-openvpn-gnome
   network-manager-ssh-gnome
+  net-tools
   num-utils
   openipmi
-  opera-stable
   pastebinit
   pep8
   pwgen
