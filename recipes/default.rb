@@ -57,7 +57,7 @@ end
   pastebinit
   pep8
   pwgen
-  python-virtualenv
+  python3-virtualenv
   screen
   sgt-puzzles
   shellcheck
