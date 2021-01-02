@@ -45,6 +45,7 @@ end
   manpages-dev
   minicom
   moreutils
+  mosh
   mpv
   mtr-tiny
   myrepos
