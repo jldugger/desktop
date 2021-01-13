@@ -4,7 +4,7 @@ maintainer_email 'jldugger@gmail.com'
 license 'GPL-2.0'
 description 'Installs/Configures workstation'
 long_description 'Installs/Configures workstation'
-version '0.3.3'
+version '0.3.4'
 
 chef_version '>= 12.5' if respond_to?(:chef_version)
 supports 'ubuntu'

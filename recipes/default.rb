@@ -55,6 +55,7 @@ end
   net-tools
   num-utils
   openipmi
+  opensc
   pastebinit
   pep8
   pwgen
